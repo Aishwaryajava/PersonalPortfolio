@@ -1,112 +1,51 @@
+/* global selector  / resetting value  */
 *{
-    margin : 0;
-    padding: 0;
-   box-sizing: border-box;
-}
-
-
-/*body{
-   background-color: hsl(0, 16%, 94%);
-    color:white;
-
-}*/
-div .button{
-    height: 20px;
-    width: 20px;
-    color: white;
-    background-color: #000000;
-}
-.main{
-    width: 100vh;
-    height: 100vh;
-    /*background-image: url(images/aish.png);*/
-    background-size: contain;
-    background-repeat: no-repeat;
-   background-position: right;
-   position: relative;
-   margin-left: 100%;
-  
-}
-.navbar{
-    width: 100%;
-    display: inline-block;
     margin: 0;
-    padding: 15px 15px;
-    align-items: center;
-    justify-content: flex-end;
-    background: black;
-    position: relative;
-}
-.navbar ul{
-    margin-top: -5%;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.navbar ul li{
-    list-style:none;
-    display:inline-block;
-    padding: 10px 10px 10px 10px; 
-    margin-left: auto;
-    margin-top: 10%;
-    border-radius: 5px;
-    align-items: center;
-    font-size:large;
-}
-
-.navbar ul li a{
-    font-size: 16px;
-    font-weight: bold;
+/* navigation bar  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: rgb(154, 16, 3);
-    margin-top: auto;
-    justify-content: flex-end;
-}
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
 
-ul li a:hover {
-    color: beige;
-}
-.info{
-    margin: left 50px;
-    margin-top: 6%;
-}
-.info h1{
-    font-size: 65px;
-    color:brown;
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
 
-}
-.info h3{
-    font-size: medium;
-    letter-spacing: 1px;
-    line: height 24px;;
-}
-.info a {
-    text-decoration: none;
-    color:beige;
-    background: black;
-    margin: 26px 0;
-    padding: 10px 10px;
-    border-radius: 10px;
-    display: inline-block;
-    transition: 4 ease;
-}
-.info a:hover{
-    background: brown;
-}
-.image{
-    width: 30%;
-    height: 60%;
-    position: absolute;
-    right: 100px;
-    bottom: 0;
-}
-.image img{
-    position:absolute;
-    height: 140%;
-    left:40%;
-    transform:translate(-50%);
-    bottom:0;
-   
-}
-image:hover.girl{
-    left:55%;
+  }
+  /* start of main  */
+  .col-12{
+    width: 100%;
+  }
+  .col-6{
+    width: 50%;
+  }
 
-}
+
+  /* end of main  */
